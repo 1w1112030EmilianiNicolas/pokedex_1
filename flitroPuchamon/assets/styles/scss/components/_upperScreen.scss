@@ -1,0 +1,44 @@
+@use '../variables/' as*;
+
+.upper-screen {
+  width: 465px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+
+
+  &__left {
+    // background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: calc(465px * .4);
+
+
+
+    h1 {
+      color: $pokedex-red;
+      text-align: center;
+    }
+  }
+
+  &__right {
+    // background-color: #fff;
+    width: calc(465px * .6);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    img {
+      width: 280px;
+      height: 280px;
+      object-fit: contain;
+      max-width: 280px;
+      max-height: 280px;
+    }
+  }
+}
