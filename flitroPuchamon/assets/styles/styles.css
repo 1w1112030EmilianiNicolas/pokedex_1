@@ -80,6 +80,78 @@
   border-bottom-left-radius: 7.5px;
   border-bottom-right-radius: 7.5px;
   border: 2px solid #000;
+  z-index: 999;
+}
+.pokedex__top--right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transform: translateX(-100%);
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation: hola 2s forwards;
+          animation: hola 2s forwards;
+}
+.pokedex__top--right .keyboard {
+  background: linear-gradient(141deg, #2c2c2c 18%, #111111 39%, #303030 65%, #2c2c2c 85%);
+  height: 80%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 2px solid #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.pokedex__top--right .keyboard .screen__container {
+  width: 90%;
+  height: 80%;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a4a4a4;
+  border-radius: 10px;
+}
+.pokedex__top--right .keyboard .screen__container .screen {
+  width: 90%;
+  height: 90%;
+  border: 2px solid #000;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+.pokedex__top--right .keyboard .button {
+  padding: 10px 30px;
+  font-size: 2rem;
+  background-color: #a4a4a4;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.pokedex__top--right .keyboard .button:hover {
+  transform: scale(0.95);
+}
+@-webkit-keyframes hola {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes hola {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 .pokedex__center {
   background: linear-gradient(90deg, #b00926 0%, #dd1332 17%, #d14841 23%, #da1231 37%, #dc0a2d 55%, #d14841 59%, #ad0925 96%);
@@ -312,7 +384,7 @@
   align-self: center;
   left: 20%;
   background: linear-gradient(141deg, #2c2c2c 18%, #111111 39%, #303030 65%, #2c2c2c 85%);
-  width: 240px;
+  width: 315px;
   height: 80%;
   border-top-left-radius: 250px;
   border-bottom-left-radius: 250px;
