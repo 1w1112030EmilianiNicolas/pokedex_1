@@ -1,0 +1,48 @@
+// Colors
+$black: #111;
+$gray-black: #303030;
+$gray-black-gradient: linear-gradient(180deg, #303030 15%, #202020 35%, #303030 71%);
+$gray-black-gradient2: linear-gradient(
+	141deg,
+	rgba(44, 44, 44, 1) 18%,
+	rgba(17, 17, 17, 1) 39%,
+	rgba(48, 48, 48, 1) 65%,
+	rgba(44, 44, 44, 1) 85%
+);
+$gray: #a4a4a4;
+$pokedex-red-gradient1: linear-gradient(
+	90deg,
+	rgba(176, 9, 38, 1) 0%,
+	rgba(221, 19, 50, 1) 17%,
+	rgb(209, 72, 65) 23%,
+	rgba(218, 18, 49, 1) 37%,
+	rgba(220, 10, 45, 1) 55%,
+	rgb(209, 72, 65) 59%,
+	rgba(173, 9, 37, 1) 96%
+);
+$pokedex-red-gradient2: linear-gradient(
+	270deg,
+	rgba(180, 21, 45, 1) 1%,
+	rgba(180, 21, 45, 1) 11%,
+	rgba(173, 9, 37, 1) 56%,
+	rgba(209, 72, 65) 90%
+);
+$pokedex-red: #b4152d;
+$gps-green: radial-gradient(circle, rgba(94, 153, 95, 1) 6%, rgba(84, 128, 81, 1) 52%, rgba(75, 157, 75, 1) 76%);
+$gps-green-linear: linear-gradient(90deg, rgba(94, 153, 95, 1) 6%, rgba(84, 128, 81, 1) 52%, rgba(75, 157, 75, 1) 76%);
+$glare: linear-gradient(
+	142deg,
+	rgba(238, 238, 244, 1) 0%,
+	rgba(243, 243, 247, 0) 19%,
+	rgba(245, 245, 249, 0.7497199563419117) 46%,
+	rgba(243, 243, 247, 0.3519608527004552) 66%,
+	rgba(246, 246, 249, 0.2959384437368697) 77%,
+	rgba(255, 255, 255, 0) 100%
+);
+
+// Sizes
+$width-1: 2px;
+$hinge-border: 7.5px;
+
+// Built variables
+$border1: $width-1 solid #000;

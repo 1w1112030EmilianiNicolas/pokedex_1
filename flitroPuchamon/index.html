@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PokeDex</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link
+    rel="shortcut icon"
+    href="https://icon-library.com/images/pokemon-ball-icon/pokemon-ball-icon-28.jpg"
+    type="image/x-icon"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap"
+    rel="stylesheet"
+  />
+	</head>
+	<body>
+		<main class="pokedex">
+			<!-- TOP -->
+			<div class="pokedex__top">
+				<!-- TOP LEFT -->
+				<div class="pokedex__top--left">
+					<div class="pokedex__top--left--spacer"></div>
+					<div class="pokedex__top--left--content">
+						<div class="black-dot__wrapper--container">
+							<div class="black-dot__wrapper black-dot__wrapper1">
+								<div class="black-dot"></div>
+							</div>
+							<div class="black-dot__wrapper black-dot__wrapper2">
+								<div class="black-dot"></div>
+								<div class="black-dot"></div>
+							</div>
+							<div class="black-dot__wrapper black-dot__wrapper3">
+								<div class="black-dot"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- TOP CENTER -->
+				<div class="pokedex__top--center">
+					<div class="center-card">
+						<div class="center-card__black-square">
+							<div class="black-dot__container">
+								<div class="black-dot"></div>
+							</div>
+						</div>
+						<div class="center-card__screen--border">
+							<div class="center-card__screen">
+								<h1>Screen superior</h1>
+								<div class="center-card__screen--glare"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- TOP RIGHT -->
+				<div class="pokedex__top--right"></div>
+			</div>
+
+			<!-- CENTER -->
+			<div class="pokedex__center">
+				<div class="pokedex__center--dotWrapper">
+					<div class="pokedex__center--dot"></div>
+				</div>
+				<div class="glare"></div>
+			</div>
+
+			<!-- BOTTOM -->
+			<div class="pokedex__bottom">
+				<!-- BOTTOM LEFT -->
+				<div class="pokedex__bottom--left">
+					<div class="cross__outer">
+						<div class="cross__inner">
+							<div class="cross">
+								<div class="cross--square cross--square1"></div>
+								<div class="cross--square cross--square2"></div>
+								<div class="cross--square cross--square3"></div>
+								<div class="cross--square cross--square4"></div>
+								<div class="cross--square cross--square5"></div>
+								<div class="cross--square cross--square6"></div>
+								<div class="cross--square cross--square7"></div>
+								<div class="cross--square cross--square8"></div>
+								<div class="cross--square cross--square9"></div>
+							</div>
+						</div>
+					</div>
+					<div class="green-square"></div>
+				</div>
+
+				<!-- BOTTOM CENTER -->
+				<div class="pokedex__bottom--center">
+					<div class="center-card">
+						<div class="center-card__black-square">
+							<div class="white-dots__container">
+								<div class="white-dots">
+									<div class="white-dots--dot"></div>
+									<div class="white-dots--dot"></div>
+								</div>
+							</div>
+						</div>
+						<div class="center-card__screen--border">
+							<div class="center-card__screen">
+                <h1 class="title">Pokemon</h1>
+                <main class="main">
+                  <section class="inputFields">
+                    <input type="text" id="inputName" placeholder="Insert Pokemon name" />
+                    <div class="buttons">
+                      <img
+                        src="http://simpleicon.com/wp-content/uploads/active-search.svg"
+                        alt="search"
+                        width="30px"
+                        id="searchButton"
+                      />
+                    </div>
+                  </section>
+                  <section class="pokemonData" id="app"></section>
+								<div class="center-card__screen--glaress"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- BOTTOM RIGHT -->
+				<div class="pokedex__bottom--right">
+					<div class="gps__outer--container">
+						<div class="gps__outer">
+							<div class="gps__inner">
+								<div class="gps"></div>
+								<div class="gps--little-dot"></div>
+							</div>
+							<div class="glare"></div>
+						</div>
+					</div>
+					<div class="spacer"></div>
+				</div>
+			</div>
+    </main>
+    <script src="./src/scripts/index.js"></script>
+	</body>
+</html>
