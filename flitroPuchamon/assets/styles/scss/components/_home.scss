@@ -120,7 +120,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 30px;
+        padding: 30px 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -143,6 +143,29 @@
             border: $border1;
             background-color: lightblue;
             border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            label {
+              margin-top: 10px;
+              color: $gray-black;
+              height: 60px;
+              font-size: 1.6rem;
+              text-align: center;
+            }
+
+            input {
+              width: 90%;
+              padding: 15px 15px;
+              margin: 0 10px;
+              border-radius: 10px;
+              color: #fff;
+              border: none;
+              background: rgb(#000, .15);
+            }
           }
         }
 
@@ -153,6 +176,8 @@
           transition: all .15s ease-in-out;
           cursor: pointer;
           border-radius: 15px;
+          color: $gray-black;
+          font-weight: bold;
 
           &:hover {
             transform: scale(0.95);
